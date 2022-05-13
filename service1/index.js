@@ -18,7 +18,6 @@ function createJson(size) {
 		jsonObject.longitude = Math.random() * longitudeRange;
 
 		jsonArray.push(jsonObject);
-		// console.log(jsonObject);
 	}
 	return jsonArray;
 }
